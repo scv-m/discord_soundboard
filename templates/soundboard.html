@@ -1,0 +1,4 @@
+Hello {{ user }}<br>
+{% for sound in sounds %}
+    <a href="/add/{{ sound}}/{{ user }}">{{ sound }}</a><br>
+{% endfor %}
